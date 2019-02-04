@@ -1,0 +1,43 @@
+body
+{
+	background-color:
+}
+.one
+{
+		background-color:black;
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 30px;
+}
+.al
+{
+	position: absolute;
+	top:0px;
+	left: 150px;
+	height: 55px;
+	width: 70px;
+}
+.time
+{
+	position: absolute;
+	top:10px;
+	left: 170px;
+	color: white;
+}
+.two
+{
+		background-color:white;
+		position: absolute;
+	  top: 30px;
+		width: 100%;
+		height: 90px;
+}
+.three
+{
+		background-color:grey;
+		position: absolute;
+	  top: 120px;
+		width: 100%;
+		height: 500px;
+}
