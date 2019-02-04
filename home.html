@@ -2,14 +2,91 @@
 <link href="style.css" rel="stylesheet" >
 
 
-<body>
+<body >
   <div class="one">
-    <img src="img\al.png" class="al">
+
     <p class=time>Mon - Sat 8.00 - 18.00. Sunday CLOSED </p>
+    <p class=call>Tel No. (+001) 123-456-789 </p>
   </div>
   <div class="two">
+    <p class="uzu">Uzu<font color="#29D1C6">ma</font>ki</p>
   </div>
   <div class="three">
+    <style>
+      .mySlides {display:none;}
+      </style>
+
+
+
+
+        <img class="mySlides" src="img\pens.jpg" height="550px" width="100%">
+        <img class="mySlides" src="img\lapy.jpg" height="550px" width="100%">
+
+
+
+
+
+
+      <script>
+      var myIndex = 0;
+      sss();
+
+      function sss() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(sss, 2500);
+      }
+      </script>
+
+  </div>
+  <div class="four">
+        <p class="para">Partner with Business Leaders </p>
+        <p class="para2">Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design scheme and the classic web. </p>
+
+  </div>
+  <div class="five">
+    <p class="ser">OUR SERVICES</p>
+
+
+    <div class="five1">
+    </div>
+
+    <div class="five2">
+    </div>
+
+    <div class="five3">
+    </div>
+
+    <div class="five4">
+    </div>
+
+    <div class="five5">
+    </div>
+
+    <div class="five6">
+    </div>
+
+    <p class="org">OUR ORGANIZATION</p>
+    <p class="para3">Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design  scheme and the classic web. </p>
+
+    <img class="pic1" src="img\lapy.jpg" >
+
+
+<div class="six">
+  <img class="service1" src="img\service1.jpg" >
+    <p class="team">Our Team</p>
+    <p class="para4">Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design  scheme and the classic web. </p>
+</div>
+
+
+  </div>
+  <div class="footer">
   </div>
 
 </body>

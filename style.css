@@ -10,19 +10,20 @@ body
 		width: 100%;
 		height: 30px;
 }
-.al
+.call
 {
 	position: absolute;
-	top:0px;
-	left: 150px;
-	height: 55px;
-	width: 70px;
+	top:-5px;
+	left: 1150px;
+  font-size: 12px;
+   color: white;
 }
 .time
 {
 	position: absolute;
-	top:10px;
-	left: 170px;
+	top:-4px;
+	font-size: 12px;
+	left: 80px;
 	color: white;
 }
 .two
@@ -33,11 +34,196 @@ body
 		width: 100%;
 		height: 90px;
 }
+.uzu
+{
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: -30px;
+	left: 80px;
+}
 .three
 {
 		background-color:grey;
 		position: absolute;
 	  top: 120px;
 		width: 100%;
-		height: 500px;
+		height: 550px;
+}
+.four
+{
+		background-color:#29D1C6;
+		position: absolute;
+	  top: 670px;
+		width: 100%;
+		height: 270px;
+}
+.para
+{
+	font-size: 40px;
+	position: absolute;
+	top:0px;
+	left: 100px;
+   color: white;
+	 font-weight: bold;
+	 font-style: italic;
+}
+.para2
+{
+	font-size: 30px;
+	position: absolute;
+	top:100px;
+	left: 120px;
+   color: white;
+	 font-style: italic;
+
+}
+.five
+{
+		background-color:white;
+		position: absolute;
+	  top: 950px;
+		width: 100%;
+		height: 2100px;
+}
+.ser
+{
+	font-size: 45px;
+	position: absolute;
+	top:30px;
+	left: 520px;
+   color: grey;
+	 font-family:monospace;
+
+}
+.five1
+{
+	position: absolute;
+	top: 300px;
+	left: 80px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+.five2
+{
+	position: absolute;
+	top: 300px;
+	left: 490px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+.five3
+{
+	position: absolute;
+	top: 300px;
+	left: 900px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+
+.five4
+{
+	position: absolute;
+	top: 680px;
+	left: 80px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+.five5
+{
+	position: absolute;
+	top: 680px;
+	left: 490px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+.five6
+{
+	position: absolute;
+	top: 680px;
+	left: 900px;
+	background-color:#F2F3F4;
+	width: 370px;
+	height: 230px;
+}
+.org
+{
+	font-size: 45px;
+	position: absolute;
+	top:970px;
+	left: 490px;
+   color: black;
+	 font-family:monospace;
+
+}
+.para3
+{
+	font-size: 22px;
+	position: absolute;
+	top:1130px;
+	left: 80px;
+   color: black;
+	 font-family:monospace;
+	 width: 750px;
+}
+.pic1
+{
+
+	position: absolute;
+	top:1130px;
+	left: 830px;
+   height: 300px;
+	 width: 500px;
+}
+.six
+{
+	position: absolute;
+	top: 1500px;
+
+	background-color:#F2F3F4;
+	width: 100%;
+	height: 350px;
+}
+.service1
+{
+
+	position: absolute;
+	top:0px;
+	left: 0px;
+   height: 350px;
+	 width: 550px;
+}
+.team
+{
+	font-size: 45px;
+	position: absolute;
+	top:-15px;
+	left: 800px;
+   color: black;
+	 font-family:monospace;
+
+}
+.para4
+{
+	font-size: 22px;
+	position: absolute;
+	top:90px;
+	left: 580px;
+   color: black;
+	 font-family:monospace;
+	 width: 750px;
+}
+.footer
+{
+		background-color:black;
+		position: absolute;
+	  top: 3050px;
+		width: 100%;
+		height: 350px;
 }
