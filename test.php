@@ -7,21 +7,32 @@
 
     <title>test</title>
 
-    <?php
-   include('Config.php');
-    ?>
-
+   
 </head>
 <body>
 
 
 <?php
+
+
+
+$host = "localhost"; /* Host name */
+$user = "root"; /* User */
+$password = ""; /* Password */
+$dbname = "test"; /* Database name */
+
+$con = mysqli_connect($host, $user, $password,$dbname);
+// Check connection
+if (!$con) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
 $admno="admno";
 $image="image name";
 if(isset($_POST['view'])){
 $admno=$_POST['admno'];
 $sql = "select * from images where id=$admno";
-$result = mysqli_query($db,$sql);
+$result = mysqli_query($con,$sql);
 $row = mysqli_fetch_array($result);
 $admno=$row['id'];
 $image = $row['name'];
