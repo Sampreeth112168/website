@@ -7,26 +7,23 @@
 
     <title>test</title>
 
-   
+
+
 </head>
 <body>
 
 
 <?php
 
-
-
 $host = "localhost"; /* Host name */
 $user = "root"; /* User */
 $password = ""; /* Password */
-$dbname = "test"; /* Database name */
-
+$dbname = "example"; /* Database name */
 $con = mysqli_connect($host, $user, $password,$dbname);
 // Check connection
 if (!$con) {
   die("Connection failed: " . mysqli_connect_error());
 }
-
 $admno="admno";
 $image="image name";
 if(isset($_POST['view'])){
@@ -38,10 +35,12 @@ $admno=$row['id'];
 $image = $row['name'];
 }
 if(isset($_POST['save'])){
-$admnou=$_POST['admnou'];
-$nameu=$_POST['nameu'];
+$admnou=$_POST['admno2'];
+$nameu=$_POST['name'];
 $query = "update images set id='".$admnou."',name='".$nameu."' where id=$admnou";
-mysqli_query($db,$query);
+mysqli_query($con,$query);
+echo "$admnou";
+echo "$nameu";
 }
 ?>
 
@@ -70,8 +69,8 @@ mysqli_query($db,$query);
     <label class="sname"> Name:</label>
     <input type="text" class="student name" value="<?php echo $image; ?>" name="name">
 
-    <label class="ssname">Surname :</label>
-    <input type="text" class="student student-surname"  name="surname">
+    <label class="ssname">Admno :</label>
+    <input type="text" class="student student-surname" value="<?php echo $admno; ?>" name="admno2">
 
 	<label class="sgender">Gender</label>
   <label class="smale">Male</label>

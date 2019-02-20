@@ -1,0 +1,734 @@
+body
+{
+
+	background-image: url("lapy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.button {
+	height: 30px;
+	width: 150px;
+	position: absolute;
+	top: 500px;
+	left: 980px;
+	border-radius: 18px;
+
+  background-color:royalblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.display-one
+{
+background-color:#29D1C6;
+		position: absolute;
+	  top: 120px;
+		width: 100%;
+		height: 100px;
+}
+.welcome
+{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-family:sans-serif;
+  position: absolute;
+  top: 25px;
+  left:600px;
+}
+.sa1
+{
+	background-color:#F4ECF7;
+	height:2800px;
+	width:80%;
+	border-radius:20px;
+	position:absolute;
+	top:220px;
+	left:140px;
+}
+
+
+.tab1
+{
+
+
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+
+
+.student
+{
+
+  position:relative;
+  border: 1.5px solid #D6DBDF;
+  border-radius: 10px;
+  height: 45px;
+}
+.smname
+{
+	position:absolute;
+	left:20px;
+	top:75px;
+	font:italic;
+	font-size:30px;
+}
+.vieww-admno
+{
+	position:absolute;
+	left:420px;
+	top:45px;
+}
+.view-submit
+{
+	position:absolute;
+	left:650px;
+	top:50px;
+
+}
+.vi
+{
+	position: absolute;
+	top: -12px;
+	left: 50px;
+	font-size: 20px;
+	color: white;
+}
+
+.name
+{
+	position:absolute;
+	left:150px;
+	top:150px;
+	width:350px;
+	font-size:18px;
+}
+
+.sname
+{
+	position:absolute;
+	left:60px;
+	top:160px;
+	font:italic;
+	font-size:20px;
+}
+.student-surname
+{
+	position:absolute;
+	left:650px;
+	top:150px;
+	width:350px;
+	font-size:18px;
+}
+.ssname
+{
+	position:absolute;
+	left:550px;
+	top:160px;
+	font:italic;
+	font-size:20px;
+}
+.sgender
+{
+position:absolute;
+	left:60px;
+	top:260px;
+	font:italic;
+	font-size:20px;
+}
+.smale
+{
+position:absolute;
+	left:280px;
+	top:260px;
+	font:italic;
+	font-size:20px;
+}
+.sfemale
+{
+position:absolute;
+	left:490px;
+	top:260px;
+	font:italic;
+	font-size:20px;
+}
+.student-gender1
+{
+	position:absolute;
+	top:125px;
+	left:130px;
+	zoom:1.8;
+}
+.student-gender2
+{
+	position:absolute;
+	top:125px;
+	left:250px;
+	zoom:1.8;
+}
+.dob
+{
+	position:absolute;
+	top:350px;
+	left:60px;
+	font-size:20px;
+}
+.dd
+{
+	position:absolute;
+	top:340px;
+	left:210px;
+	width:50px;
+	font-size:18px;
+}
+.mm
+{
+	position:absolute;
+	top:340px;
+	left:280px;
+	width:50px;
+	font-size:18px;
+}
+.yy
+{
+	position:absolute;
+	top:340px;
+	left:350px;
+	width:100px;
+	font-size:18px;
+}
+.saddress
+{
+	position:absolute;
+	left:60px;
+	top:450px;
+	font:italic;
+	font-size:20px;
+
+}
+.student-address
+{
+	position:absolute;
+	top:440px;
+	left:150px;
+	 width: 850px;
+	 font-size:18px;
+}
+
+.student-village
+{
+	position:absolute;
+	left:150px;
+	top:540px;
+	width:350px;
+	font-size:18px;
+}
+
+.svillage
+{
+	position:absolute;
+	left:60px;
+	top:550px;
+	font:italic;
+	font-size:20px;
+}
+.student-mandal
+{
+	position:absolute;
+	left:650px;
+	top:540px;
+	width:350px;
+	font-size:18px;
+}
+.smandal
+{
+	position:absolute;
+	left:550px;
+	top:550px;
+	font:italic;
+	font-size:20px;
+}
+.sdistrict
+{
+	position:absolute;
+	left:60px;
+	top:650px;
+	font:italic;
+	font-size:20px;
+}
+.student-district
+{
+	position:absolute;
+	left:150px;
+	top:640px;
+	width:350px;
+	font-size:18px;
+}
+.sstate
+{
+	position:absolute;
+	left:560px;
+	top:650px;
+	font:italic;
+	font-size:20px;
+}
+.student-state
+{
+	position:absolute;
+	left:650px;
+	top:640px;
+	width:350px;
+	font-size:18px;
+}
+.spincode
+{
+	position:absolute;
+	left:60px;
+	top:750px;
+	font:italic;
+	font-size:20px;
+}
+.student-pincode
+{
+	position:absolute;
+	left:150px;
+	top:740px;
+	width:350px;
+	font-size:18px;
+}
+.scountry
+{
+	position:absolute;
+	left:560px;
+	top:750px;
+	font:italic;
+	font-size:20px;
+}
+.student-country
+{
+	position:absolute;
+	left:650px;
+	top:740px;
+	width:350px;
+	font-size:18px;
+}
+.scschool
+{
+	position:absolute;
+	left:60px;
+	top:850px;
+	font:italic;
+	font-size:20px;
+
+}
+.student-cschool
+{
+	position:absolute;
+	top:840px;
+	left:200px;
+	 width: 800px;
+	 font-size:18px;
+}
+.start2
+{
+	position:absolute;
+	top:900px;
+}
+
+
+
+
+.parent{
+
+  position:relative;
+  border: 1.5px solid #D6DBDF;
+  border-radius: 10px;
+  height: 45px;
+}
+.fmname
+{
+	position:absolute;
+	left:20px;
+	top:975px;
+	font:italic;
+	font-size:30px;
+}
+
+.fathername
+{
+	position:absolute;
+	left:150px;
+	top:1040px;
+	width:350px;
+	font-size:18px;
+}
+
+.fname
+{
+	position:absolute;
+	left:20px;
+	top:1050px;
+	font:italic;
+	font-size:20px;
+}
+.father-surname
+{
+	position:absolute;
+	left:650px;
+	top:1040px;
+	width:350px;
+	font-size:18px;
+}
+.fsname
+{
+	position:absolute;
+	left:550px;
+	top:1050px;
+	font:italic;
+	font-size:20px;
+}
+.father-phone
+{
+	position:absolute;
+	top:1140px;
+	left:150px;
+	 width: 350px;
+	 font-size:18px;
+}
+
+.fno
+{
+	position:absolute;
+	left:20px;
+	top:1150px;
+	font:italic;
+	font-size:20px;
+
+}
+.father-phone2
+{
+	position:absolute;
+	top:1140px;
+	left:650px;
+  font-size:18px;
+	width: 350px;
+}
+
+.fno2
+{
+	position:absolute;
+	left:520px;
+	top:1150px;
+	font:italic;
+	font-size:20px;
+}
+.eml
+{
+	position:absolute;
+	left:20px;
+	top:1250px;
+	font:italic;
+	font-size:20px;
+}
+.father-email
+{
+	position:absolute;
+	top:1240px;
+	left:150px;
+	 width: 850px;
+	 font-size:18px;
+}
+
+.mothername
+{
+	position:absolute;
+	left:150px;
+	top:1340px;
+	width:350px;
+	font-size:18px;
+}
+
+.mname
+{
+	position:absolute;
+	left:20px;
+	top:1350px;
+	font:italic;
+	font-size:20px;
+}
+.mother-surname
+{
+	position:absolute;
+	left:650px;
+	top:1340px;
+	width:350px;
+	font-size:18px;
+}
+.msname
+{
+	position:absolute;
+	left:550px;
+	top:1350px;
+	font:italic;
+	font-size:20px;
+}
+.mother-phone
+{
+	position:absolute;
+	top:1440px;
+	left:150px;
+	 width: 350px;
+	 font-size:18px;
+}
+
+.mno
+{
+	position:absolute;
+	left:20px;
+	top:1450px;
+	font:italic;
+	font-size:20px;
+}
+.mother-phone2
+{
+	position:absolute;
+	top:1440px;
+	left:650px;
+	 width: 350px;
+	 font-size:18px;
+}
+
+.mno2
+{
+	position:absolute;
+	left:520px;
+	top:1450px;
+	font:italic;
+	font-size:20px;
+}
+.meml
+{
+	position:absolute;
+	left:20px;
+	top:1540px;
+	font:italic;
+	font-size:20px;
+
+}
+.mother-email
+{
+	position:absolute;
+	top:1550px;
+	left:150px;
+	 width: 850px;
+	 font-size:18px;
+}
+.start3
+{
+	position:absolute;
+	top:1600px;
+}
+.tab3
+{
+
+
+	position:absolute;
+	left:50px;
+	top:1070px;
+}
+.sss
+{
+	position:absolute;
+	left:0px;
+	top:1650px;
+	font:italic;
+	font-size:30px;
+}
+.sibling-name
+{
+	position:absolute;
+	left:250px;
+	top:1740px;
+	width:400px;
+	font-size:18px;
+}
+.siblingname
+{
+	position:absolute;
+	left:20px;
+	top:1750px;
+	font:italic;
+	font-size:20px;
+}
+.sibling-grade
+{
+	position:absolute;
+	left:250px;
+	top:1840px;
+	width:400px;
+	font-size:18px;
+}
+.sgrade
+{
+	position:absolute;
+	left:20px;
+	top:1850px;
+	font:italic;
+	font-size:20px;
+}
+.sibling-school
+{
+	position:absolute;
+	left:250px;
+	font-size:18px;
+	top:1940px;
+	width:400px;
+}
+
+.sscl
+{
+	position:absolute;
+	left:20px;
+	top:1950px;
+	font:italic;
+	font-size:20px;
+}
+
+
+.start4
+{
+	position:absolute;
+	top:2000px;
+}
+
+.health
+{
+	position:absolute;
+	left:0px;
+	top:2050px;
+	font:italic;
+	font-size:30px;
+}
+.hlth
+{
+	position:absolute;
+	top:2160px;
+	left:30px;
+	font-size:20px;
+
+}
+.height
+{
+	position:absolute;
+	top:2150px;
+	left:120px;
+	width:250px;
+	font-size:18px;
+}
+.weight
+{
+	position:absolute;
+	top:2150px;
+	left:420px;
+	width:250px;
+	font-size:18px;
+}
+.blood
+{
+	position:absolute;
+	top:2150px;
+	left:720px;
+	width:250px;
+	font-size:18px;
+}
+.box
+{
+	position:absolute;
+	top:1287px;
+	left:50px;
+	zoom:1.8;
+
+}
+.today
+{
+	position:absolute;
+	top:2250px;
+	left:30px;
+	font-size:20px;
+}
+.ddd
+{
+	position:absolute;
+	top:2240px;
+	left:160px;
+	width:50px;
+	font-size:18px;
+}
+.mmm
+{
+	position:absolute;
+	top:2240px;
+	left:230px;
+	width:50px;
+	font-size:18px;
+}
+.yyy
+{
+	position:absolute;
+	top:2240px;
+	left:300px;
+	width:100px;
+	font-size:18px;
+}
+
+.terms
+{
+	position:absolute;
+	top:2350px;
+	left:150px;
+	font-size:20px;
+
+}
+.policy
+{
+	position:absolute;
+	top:2400px;
+	left:120px;
+	font-size:20px;
+
+}
+.upload
+{
+	position:absolute;
+	top:2600px;
+	left:100px;
+	font-size:20px;
+}
+.pic
+{
+	position:absolute;
+	top:2600px;
+	left:400px;
+	height:25px;
+	width:150px;
+
+}
+.submit
+{
+	position:absolute;
+	top:2700px;
+	left:500px;
+	height:30px;
+	width:150px;
+	border-radius:5px;
+	border-color:black;
+
+}
