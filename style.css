@@ -1,229 +1,532 @@
 body
 {
-	background-color:
+  background-color: #f8f7f6;
 }
+
+.fix_head
+{
+    overflow: hidden;
+  background-color: black;
+  position: fixed;
+
+  top: 0px;
+  height: 50px;
+  width: 100%;
+}
+
+.fix_profile
+{
+  background-color:white;
+  width:20%;
+  height:500px;
+  position: fixed;
+  overflow: hidden;
+  top: 50px;
+}
+.name
+{
+  background-color:white ;
+  width:270px;
+  height:100px;
+  position: fixed;
+  overflow: hidden;
+  top:50px;
+}
+.dashboard
+{
+  background-color:white ;
+  width:240px;
+  height:500px;
+  position: absolute;
+  top:101px;
+}
+.nav
+{
+ text-decoration: none;
+  height: 200px;
+  position:absolute;
+
+  top:100px;
+  left:0px;
+}
+.nav ul{
+  text-decoration: none;
+  list-style: none;
+  margin:0px;
+        padding:0px;
+        display: inline-block;
+
+}
+.nav ul  li a{
+        text-decoration:none;
+  list-style: none;
+        color:black;
+        display:block;
+        }
+.nav ul li{
+        padding:5px;
+  text-decoration: none;
+        float:left;
+        width:260px;
+        height:35px;
+  list-style: none;
+        background-color:white;
+        font-size:18px;
+  font-family: sans-serif;
+        line-height:35px;
+        text-align:center;
+  border:0px solid white;
+}
+
+.nav ul li a:hover,a:focus {
+        background-color: #29D1C6;
+}
+ nav ul li:hover {
+        display:block;
+  width:250px;
+}
+
+.mydashboard
+{
+  background-color: #f8f7f6;
+  margin-top: 50px;
+  width:1090px;
+  height:2000px;
+  position: absolute;
+  top: 0px;
+  left:258px;
+}
+
+.headings
+{
+  font-size: 25px;
+  color: black;
+  font-style:normal;
+
+}
+.myd
+{
+  position: absolute;
+  top: 40px;
+  left: 55px;
+}
+.welcome
+{
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+
+}
+.dash
+{
+  background-color: #f2512e;
+  width:250px;
+  height:130px;
+
+}
+
 .one
 {
-		background-color:black;
-		position: absolute;
-		top: 0px;
-		width: 100%;
-		height: 30px;
+  background-color: #f2512e;
+  position: absolute;
+  top: 80px;
+  left:15px;
 }
-.call
-{
-	position: absolute;
-	top:-5px;
-	left: 1150px;
-  font-size: 12px;
-   color: white;
-}
-.time
-{
-	position: absolute;
-	top:-4px;
-	font-size: 12px;
-	left: 80px;
-	color: white;
-}
+
 .two
 {
-		background-color:white;
-		position: absolute;
-	  top: 30px;
-		width: 100%;
-		height: 90px;
+  background-color: #2ea5f2;
+  position: absolute;
+  top: 80px;
+  left:285px;
 }
-.uzu
+.Per
 {
-	font-size: 45px;
-	font-weight: bold;
-	color: black;
-	position: absolute;
-	top: -30px;
-	left: 80px;
+  position: absolute;
+  top:-60px;
+  left: 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
 }
 .three
 {
-		background-color:grey;
-		position: absolute;
-	  top: 120px;
-		width: 100%;
-		height: 550px;
+  background-color: #35c083;
+  position: absolute;
+  top: 80px;
+  left:555px;
 }
 .four
 {
-		background-color:#29D1C6;
-		position: absolute;
-	  top: 670px;
-		width: 100%;
-		height: 270px;
+  background-color: #ef8037;
+  position: absolute;
+  top: 80px;
+  left:825px;
 }
-.para
+.dash-heads
 {
-	font-size: 40px;
-	position: absolute;
-	top:0px;
-	left: 100px;
-   color: white;
-	 font-weight: bold;
-	 font-style: italic;
+  color: white;
+  font-size:25px;
+  position:absolute;
+  top: 85px;
+  left: 20px;
 }
-.para2
+.location
 {
-	font-size: 30px;
-	position: absolute;
-	top:100px;
-	left: 120px;
-   color: white;
-	 font-style: italic;
+  position:absolute;
+  top: 255px;
+  left: 60px;
+}
+.dash-location
+{
+  height: 250px;
+  background-color:white;
+  width:350px;
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  border-width:1.5px;
+  border-style:solid;
+  border-color: grey;
+}
+.mapouter
+{text-align:right;
+        height:250px;
+        width:350px;
+}
+.gmap_canvas
+{overflow:hidden;
+        background:none!important;
+        height:250px;
+        width:350px;}
+.emanukole
+{
+  position:absolute;
+  top: 255px;
+  left: 450px;
+}
+.dash-emanukole
+{
+  height: 250px;
+  background-color:white;
+  border-width:1.5px;
+  border-style:solid;
+  border-color: grey;
+  width:670px;
+  position: absolute;
+  top: 300px;
+  left: 410px;
 
 }
-.five
+.my_messages
 {
-		background-color:white;
-		position: absolute;
-	  top: 950px;
-		width: 100%;
-		height: 2100px;
+  position:absolute;
+  top: 585px;
+  left: 60px;
 }
-.ser
+.dash-messages
 {
-	font-size: 45px;
-	position: absolute;
-	top:30px;
-	left: 520px;
-   color: grey;
-	 font-family:monospace;
+  height: 300px;
+  background-color: white;
+  width:1045px;
+  position: absolute;
+  top: 630px;
+  left: 15px;
+  border-width:1.5px;
+  border-style:solid;
+  border-color: grey;
 
 }
-.five1
+.events
 {
-	position: absolute;
-	top: 300px;
-	left: 80px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
+  position:absolute;
+  top: 965px;
+  left: 60px;
 }
-.five2
+.dash-events
 {
-	position: absolute;
-	top: 300px;
-	left: 490px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
-}
-.five3
-{
-	position: absolute;
-	top: 300px;
-	left: 900px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
-}
-
-.five4
-{
-	position: absolute;
-	top: 680px;
-	left: 80px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
-}
-.five5
-{
-	position: absolute;
-	top: 680px;
-	left: 490px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
-}
-.five6
-{
-	position: absolute;
-	top: 680px;
-	left: 900px;
-	background-color:#F2F3F4;
-	width: 370px;
-	height: 230px;
-}
-.org
-{
-	font-size: 45px;
-	position: absolute;
-	top:970px;
-	left: 490px;
-   color: black;
-	 font-family:monospace;
+  height: 320px;
+  background-color:white;
+  width:1045px;
+  position: absolute;
+  top: 1010px;
+  left: 15px;
+  border-width:1.5px;
+  border-style:solid;
+  border-color: grey;
 
 }
-.para3
+.event-1
 {
-	font-size: 22px;
-	position: absolute;
-	top:1130px;
-	left: 80px;
-   color: black;
-	 font-family:monospace;
-	 width: 750px;
+  font-size:18px;
+  color: black;
+  font-weight: 400;
+  position: absolute;
+
+  left: 50px;
+}
+.event-1b
+{
+  font-size:18px;
+  color: black;
+  font-weight: 400;
+  position: absolute;
+
+  left: 550px;
+}
+.e1
+{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.e2
+{
+  background-color: #f8f7f6;
+  width: 100%;
+  height: 40px;
+}
+
+.comments
+{
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  top: 1465px;
+  left: 60px;
+}
+.dash-comments
+{
+  height: 300px;
+    background-color:white;
+  width:1045px;
+  position: absolute;
+  top: 1510px;
+  left: 15px;
+  border-width:1.5px;
+  border-style:solid;
+  border-color: grey;
+
 }
 .pic1
 {
-
-	position: absolute;
-	top:1130px;
-	left: 830px;
-   height: 300px;
-	 width: 500px;
+  background-color:black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50%;
 }
-.six
+.comment-name
 {
-	position: absolute;
-	top: 1500px;
-
-	background-color:#F2F3F4;
-	width: 100%;
-	height: 350px;
+  color: black;
+  font-size:25px;
+  position:absolute;
+  top: 40px;
+  left: 200px;
 }
-.service1
+.comment-date
 {
-
-	position: absolute;
-	top:0px;
-	left: 0px;
-   height: 350px;
-	 width: 550px;
+  color: black;
+  font-size:15px;
+  position:absolute;
+  top: 50px;
+  left: 355px;
 }
-.team
+.comment-one
 {
-	font-size: 45px;
-	position: absolute;
-	top:-15px;
-	left: 800px;
-   color: black;
-	 font-family:monospace;
-
+  color: black;
+  font-size:20px;
+  position:absolute;
+  top: 85px;
+  left: 185px;
 }
-.para4
+.comment2-name
 {
-	font-size: 22px;
-	position: absolute;
-	top:90px;
-	left: 580px;
-   color: black;
-	 font-family:monospace;
-	 width: 750px;
+  color: black;
+  font-size:25px;
+  position:absolute;
+  top: 170px;
+  left: 200px;
+}
+.comment2-date
+{
+  color: black;
+  font-size:15px;
+  position:absolute;
+  top:170px;
+  left: 355px;
+}
+.comment-two
+{
+  color: black;
+  font-size:20px;
+  position:absolute;
+  top: 205px;
+  left: 185px;
+}
+.pic2
+{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  border-radius: 50%;
 }
 .footer
 {
-		background-color:black;
-		position: absolute;
-	  top: 3050px;
-		width: 100%;
-		height: 350px;
+  height: 300px;
+  background-color:black;
+  width:1045px;
+  position: absolute;
+  top: 1810px;
+  left: 15px;
+
+}
+.pfooter
+{
+        position :absolute;
+        font-size: 18px;
+        color :#29D1C6;
+        left:730px;
+        top:20px;
+}
+.faddress
+{
+        position :absolute;
+        font-size: 17px;
+        color :grey;
+        left:730px;
+        top:70px;
+}
+.pfooter1
+{
+        position :absolute;
+        font-size: 18px;
+        color :#29D1C6;
+        left:510px;
+        top:20px;
+}
+.loc
+{
+        position:absolute;
+        left:150px;
+        top:45px;
+        font-size:17px;
+        color:grey;
+}
+.num
+{
+        position:absolute;
+        left:150px;
+        top:130px;
+        font-size:17px;
+        color:grey;
+}
+.mail
+{
+        position: absolute;
+        left:150px;
+        top:170px;
+        font-size: 17px;
+        color:grey;
+}
+.facebook:hover{
+        color:#29D1C6;
+}
+.terms
+{
+        position:absolute;
+        left:513px;
+        top:70px;
+        font-size:17px;
+        color: grey;
+}
+.terms:hover{
+        color:#29D1C6;
+}
+.privacy
+{
+        position:absolute;
+        left:513px;
+        top:100px;
+        font-size:17px;
+        color: grey;
+}
+.privacy:hover{
+        color:#29D1C6;
+}
+.contact
+{
+        position:absolute;
+        left:513px;
+        top:130px;
+        font-size:17px;
+        color: grey;
+}
+.contact:hover{
+        color:#29D1C6;
+}
+.login
+{
+        position:absolute;
+        left:513px;
+        top:160px;
+        font-size:18px;
+        color: grey;
+}
+.login:hover{
+        color:#29D1C6;
+}
+
+.fa {
+
+  padding: 20px;
+  font-size: 30px;
+        height:12px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+        border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+        position:absolute;
+        top:210px;
+        left:730px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+        position:absolute;
+        top:210px;
+        left:790px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+        position:absolute;
+        top:210px;
+        left:850px;
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+        position:absolute;
+        top:210px;
+        left:910px;
+  background: #007bb5;
+  color: white;
 }
